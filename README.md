@@ -34,14 +34,3 @@
 | **exit** | --- | --- | terminate the calling process </br> cause normal process termination |
 | **reset** | --- | --- | terminal initialization |
 | **whoami** | --- | --- | Print effective userID |
-
-</br>
-
-## Row sample
-| **** |  |  |  |
-
-</br>
-
-## 2 add
-service udev status
-systemctl status udev
