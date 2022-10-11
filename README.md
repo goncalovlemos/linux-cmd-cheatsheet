@@ -34,3 +34,4 @@
 | **exit** | --- | --- | terminate the calling process </br> cause normal process termination |
 | **reset** | --- | --- | terminal initialization |
 | **whoami** | --- | --- | Print effective userID |
+| **python3** | -m | http.server | Create a quick http server |
