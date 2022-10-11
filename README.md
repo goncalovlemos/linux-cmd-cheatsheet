@@ -1,4 +1,4 @@
-# Linux commands cheatsheet
+# Linux Commands Cheatsheet
 
 | Command | Options | Parameters | Description |
 | :-----: | :---: | :--------: | :---------: |
@@ -12,6 +12,7 @@
 | **find** | --- | . -name "example.file" </br> . -name "*.file" | Search for specific "example.file" file </br> Search recursively for all files ending with ".file" |
 | **finger** | --- | "username" | Gives information on all logged in user |
 | **free** | -h | --- | Display free and used memory |
+| **grep** | -rnw . -e | "pattern to find" | Search for pattern recursively in directory |
 | **hdparm** | -i | /dev/disk | Get SATA/IDE device parameters |
 | **history** | --- | --- | Gives a list of all past commands typed in the current terminal session |
 | **ifconfig** | --- | --- | Configure a network interface |
@@ -23,6 +24,8 @@
 | **lsusb** | -tv | --- | Show USB devices |
 | **mtr** | --- | "adress" | Network diagnostic tool |
 | **netstat** | -tulpn | --- | Print network connections, routing tables, interface statistics, masquerade... |
+| **nmap** | -sT -O | "address e.g. 192.168.1.0/24" | Show addresses in LAN |
+| **notify-send** | --uregency= | low </br> normal </br> critical | A program to send desktop notifications |
 | **ping** | --- | "adress" | Send ICMP ECHO_REQUEST to network hosts |
 | **printenv** | --- | --- | Print all or part of environment |
 | **python3** | -m | http.server | Create a quick http server |
