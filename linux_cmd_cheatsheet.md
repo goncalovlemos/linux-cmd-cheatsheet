@@ -4,6 +4,7 @@
 | :-----: | :---: | :--------: | :---------: |
 | **cat** | --- | /proc/cpuinfo | Show CPU information |
 | **clear** </br> **CTRL+L** | --- | --- | Clears the terminal
+| **command time** | -v | Program executable | Run programs and summarize system resource usage |
 | **df** | -h | --- | Report file system disk space usage |
 | **dmesg** | -wH | --- | Show bootup messages in real time |
 | **dmidecode** | --- | --- | Shows hardware information from the BIOS |
@@ -22,6 +23,7 @@
 | **lsblk** | --- | --- | See information about block devices |
 | **lspci** | -tv | --- | Show PCI devices |
 | **lsusb** | -tv | --- | Show USB devices |
+| **memusage** | -T | Program executable | Profile memory usage of a program |
 | **mtr** | --- | "adress" | Network diagnostic tool |
 | **netstat** | -tulpn | --- | Print network connections, routing tables, interface statistics, masquerade... |
 | **nmap** | -sT -O | "address e.g. 192.168.1.0/24" | Show addresses in LAN |
