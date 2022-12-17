@@ -5,6 +5,8 @@
 | **cat** | --- | /proc/cpuinfo | Show CPU information |
 | **clear** </br> **CTRL+L** | --- | --- | Clears the terminal
 | **command time** | -v | Program executable | Run programs and summarize system resource usage |
+| **cowsay** | --- | "Your text" | Get a cow to say anything you want |
+| **curl** | --- | http://wttr.in/your_city_name | Get the weather info about a specific city |
 | **df** | -h | --- | Report file system disk space usage |
 | **dmesg** | -wH | --- | Show bootup messages in real time |
 | **dmidecode** | --- | --- | Shows hardware information from the BIOS |
@@ -12,12 +14,14 @@
 | **exit** | --- | --- | terminate the calling process </br> cause normal process termination |
 | **find** | --- | . -name "example.file" </br> . -name "*.file" | Search for specific "example.file" file </br> Search recursively for all files ending with ".file" |
 | **finger** | --- | "username" | Gives information on all logged in user |
+| **fortune** | --- | --- | Get random fun fact |
 | **free** | -h | --- | Display free and used memory |
 | **grep** | -rnw . -e | "pattern to find" | Search for pattern recursively in directory |
 | **hdparm** | -i | /dev/disk | Get SATA/IDE device parameters |
 | **history** | --- | --- | Gives a list of all past commands typed in the current terminal session |
 | **ifconfig** | --- | --- | Configure a network interface |
 | **ip** | ad | --- | Linux IPv4 protocol implementation </br> show / manipulate routing, network devices, interfaces and tunnels |
+| **host** | --- | "webite domain" | Obtain adress information about a remote system connected to your network |
 | **htop** | --- | --- | Interactive process viewer |
 | **lshw** | --- | --- | List hardware configuration information |
 | **lsblk** | --- | --- | See information about block devices |
